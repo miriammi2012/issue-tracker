@@ -1,5 +1,6 @@
 'use strict';
-const {Project,Issue} = require('../models/Projects.js');
+const Project = require('../models/Project.js');
+const Issue = require('../models/Issue.js');
 const { isNaN, stringToBool, isObjEmpty } = require("../utils");
 
 module.exports = function (app) {
