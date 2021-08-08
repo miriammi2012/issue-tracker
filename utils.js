@@ -1,4 +1,5 @@
-const {Issue,Project} = require('./models/Projects');
+const Issue = require('./models/Issue');
+const Project = require('./models/Project');
 
 const isValidDate = (dateStr) => {
   let date = new Date(dateStr);
